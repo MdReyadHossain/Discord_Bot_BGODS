@@ -14,7 +14,7 @@ def get_response(message: str, user_name) -> str:
         return time
 
     if user_message == 'flip' or user_message == 'flip coin':
-        coin = random.choice(["Head 😄", "Tail 😸"])
+        coin = random.choice(["Head 😄", "Tail 🐍"])
         return coin
 
     else:
